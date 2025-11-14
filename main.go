@@ -17,10 +17,11 @@ import (
 
 type console struct {
 	pb.UnimplementedOutputPluginServer
+	pb.UnimplementedPluginServer
 }
 
-func (c *console) GetMetadata(ctx context.Context, empty *pb.Empty) (*pb.OutputMetadata, error) {
-	return &pb.OutputMetadata{}, nil
+func (c *console) GetMetadata(ctx context.Context, empty *pb.Empty) (*pb.Metadata, error) {
+	return &pb.Metadata{}, nil
 }
 
 func (c *console) Configure(ctx context.Context, req *pb.ConfigureRequest) (*pb.ConfigureResponse, error) {
@@ -59,6 +60,7 @@ func main() {
 		grpc.MaxRecvMsgSize(maxMessageSize),
 	)
 	pb.RegisterOutputPluginServer(grpcServer, plugin)
+	pb.RegisterPluginServer(grpcServer, plugin)
 
 	go func() {
 		log.Printf("gRPC server listening on %v", l.Addr())
