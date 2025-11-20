@@ -12,6 +12,8 @@ github.com/kytheron-org/kytheron-plugin-framework v0.0.0-20251113012143-eb3f0f06
 github.com/kytheron-org/kytheron-plugin-framework v0.0.0-20251113012143-eb3f0f06324c/go.mod h1:lRt1GUwHmqA0sB1TekLfxsA+zcYN1exGZeGlXLRqx6Y=
 github.com/kytheron-org/kytheron-plugin-go v0.0.1 h1:3/uz5sU+j7pACv35dtske9QR4FgRO9eicMnOIHdcjo4=
 github.com/kytheron-org/kytheron-plugin-go v0.0.1/go.mod h1:oH2bGBmDO0A/f+IBokkEuNTDxSDxE9U7cB8Z1qk0usQ=
+github.com/kytheron-org/kytheron-plugin-go v1.0.2 h1:YL4iHBDXWUDL8I31G0V3yregj7eBdQ4V8NynR5nVZl0=
+github.com/kytheron-org/kytheron-plugin-go v1.0.2/go.mod h1:oH2bGBmDO0A/f+IBokkEuNTDxSDxE9U7cB8Z1qk0usQ=
 go.opentelemetry.io/auto/sdk v1.1.0 h1:cH53jehLUN6UFLY71z+NDOiNJqDdPRaXzTel0sJySYA=
 go.opentelemetry.io/auto/sdk v1.1.0/go.mod h1:3wSPjt5PWp2RhlCcmmOial7AvC4DQqZb7a7wCow3W8A=
 go.opentelemetry.io/otel v1.37.0 h1:9zhNfelUvx0KBfu/gb+ZgeAfAgtWrfHJZcAqFC228wQ=
